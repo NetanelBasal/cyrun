@@ -1,16 +1,27 @@
 {
-  "name": "cypress-run",
-  "version": "1.0.0",
+  "name": "cyrun",
+  "version": "1.0.3",
+  "description": "Cypress run that lets you select files or folders to run",
+  "keywords": [
+    "cypress",
+    "cypress run",
+    "cypress run list files"
+  ],
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "open": "cypress open"
+  "author": {
+    "name": "Netanel Basal",
+    "url": "https://www.netbasal.com"
+  },
+  "bin": {
+    "cyrun": "index.js"
   },
   "dependencies": {
     "cypress": "^4.4.1",
+    "glob": "^7.1.6",
     "inquirer": "^7.1.0",
+    "inquirer-checkbox-plus-prompt": "^1.0.1",
     "inquirer-fuzzy-path": "^2.2.0",
-    "inquirer-select-directory": "^1.2.0",
     "shelljs": "^0.8.3"
   }
 }
