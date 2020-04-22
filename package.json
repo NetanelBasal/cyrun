@@ -1,0 +1,16 @@
+{
+  "name": "cypress-run",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "open": "cypress open"
+  },
+  "dependencies": {
+    "cypress": "^4.4.1",
+    "inquirer": "^7.1.0",
+    "inquirer-fuzzy-path": "^2.2.0",
+    "inquirer-select-directory": "^1.2.0",
+    "shelljs": "^0.8.3"
+  }
+}
